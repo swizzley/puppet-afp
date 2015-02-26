@@ -1,0 +1,5 @@
+# The line below sets some DEFAULT, starting with Netatalk 2.1.
+:DEFAULT: options:upriv,usedots
+<% @shared.sort.each do |key, value_hash| %>
+<%= value_hash['volume'] %> <%= value_hash['name'] %> cnidscheme:dbd
+<% end %>
