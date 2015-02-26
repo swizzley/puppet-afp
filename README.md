@@ -31,7 +31,7 @@ This module is derived from swizzley88-timecapsule to configure your linux host 
 You can configure the user, group, password, and as many shares as you want, so long as the absolute paths exist, and for the preconfigured user 'afp', it will.
 
 ```ruby
-class timecapsule::params{
+class afp::params{
   
   $user = 'afp'
   $password = 'zo2Ps8mHNzFmY' #this equals "afp" 
