@@ -83,7 +83,7 @@ openssl passwd -crypt "secretPassword"
 
 #### Server ####
 ```ruby
-include timecapsule
+include afp
 ```
 
 
@@ -97,7 +97,7 @@ Open up finder and click the hostname of your server, click 'Connect As' from th
 If you use a spacewalk or satellite server for package management, or just plain don't want to enable the whole repo because you want to download and install the requirements manually for some reason, then just disable the $use_epel in params.
 
 ```ruby
-class timecapsule::params{
+class afp::params{
   $use_epel = true
 }
 ```
