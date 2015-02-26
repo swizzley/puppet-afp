@@ -157,6 +157,7 @@ Report any issues with current release, as any input will be considered valuable
   * Add support for netatalk >= 3.0.0
   * Add Debian support
   * Add selinux support
+  * Add options for more secure connections
  
 
 ###### Contact ######
