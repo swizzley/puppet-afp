@@ -45,8 +45,7 @@
 	],
 	"source": "https://github.com/swizzley/puppet-afp",
 	"summary": "Puppet module for configuring apple file sharing on EL variants",
-	"tags": [ "timemachine",
-		"mac",
+	"tags": [ "mac",
 		"fileshare",
 		"avahi",
 		"netatalk"
